@@ -75,18 +75,24 @@ npm start
 ### Folder Structure
 
 Project-Manager/
-│
 ├── crud-backend/
 │   ├── models/
+│   │   └── Project.js
+|    |   └── Task.js
 │   ├── routes/
+│   │   ├── projects.js
+│   │   └── tasks.js
 │   └── server.js
 │
-├── crud-frontend/
+├── proejct-manager/
 │   ├── public/
+│   │   └── index.html
 │   ├── src/
 │   │   ├── App.js
-│   │   └── App.css
+│   │   ├── App.css
+│   │   └── index.js
 │   └── package.json
 │
 └── README.md
+
 
