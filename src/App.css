@@ -1,0 +1,78 @@
+body {
+  background-color: #f4f4f4;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+input,
+select {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px 3px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button.add {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.edit {
+  background-color: #ff9800;
+  color: white;
+}
+
+button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+button.open {
+  background-color: #2196f3;
+  color: white;
+}
+
+button.back {
+  background-color: transparent;
+  color: #2196f3;
+  text-decoration: underline;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
