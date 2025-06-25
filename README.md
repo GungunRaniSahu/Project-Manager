@@ -36,33 +36,51 @@ It allows users to create multiple projects, each with its own set of tasks — 
 
 ## Installation & Setup
 
-### 1. Clone the Repository
+Follow the steps below to run both the backend and frontend locally.
+
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/GungunRaniSahu/Project-Manager.git
 cd Project-Manager
 
-2. Backend Setup
+```
 
+### Step 2: Install Dependencies 
+
+```bash 
+# Backend dependencies
 cd crud-backend
 npm install
+
+# Frontend dependencies
+cd ../crud-frontend
+npm install
+
+```
+### Step 3: Start the Application
+```bash
+# Start MongoDB (locally or use a cloud URI in the backend)
+
+# Run backend server
+cd ../crud-backend
 node server.js
 
-Make sure MongoDB is running locally, or configure your .env file with your cloud MongoDB URI.
-
-3. Frontend Setup
-
-cd ../crud-frontend   # Or the folder where your React app is located
-npm install
+# Run frontend app
+cd ../crud-frontend
 npm start
 
-project-manager/
+```
+
+### Folder Structure
+
+Project-Manager/
 ├── crud-backend/
 │   ├── models/
 │   ├── routes/
-│   ├── server.js
+│   └── server.js
 ├── crud-frontend/
 │   ├── src/
 │   ├── App.js
-│   ├── App.css
+│   └── App.css
 
