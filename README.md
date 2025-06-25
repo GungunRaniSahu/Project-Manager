@@ -21,12 +21,6 @@ It allows users to create multiple projects, each with its own set of tasks — 
 
 ---
 
-## Screenshots
-
-*Add screenshots here if desired*
-
----
-
 ## Tech Stack
 
 | Technology | Purpose         |
